@@ -1,6 +1,6 @@
 {
-    "host": "localhost",
-    "user": "root",
-    "database": "posts",
-    "password": "password"
+    "host": "localhost", //geralmente é localhost msm, a n ser que esteja usando um server dedicado a isso
+    "user": "<seu user do seu db>",
+    "database": "<seu schema do db>",
+    "password": "<sua senha do seu db>"
 }
