@@ -18,7 +18,10 @@ router.post(
             })
             .normalizeEmail(), //dx maiusculo e minusculo no msm patamar
         body('password').trim().isLength({ min: 7 })
-    ], authController.signup
+    ],
+    authController.signup
 );
+
+router.post('/login', authController.login);
 
 module.exports = router;
